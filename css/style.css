@@ -336,6 +336,16 @@ a.nav-link{
     font-family: 'PT Sans', sans-serif;
 }
 
+/*a.nav-link:hover {
+    color: dodgerblue;
+}
+*/
+/*a.active {
+    color: #0287b4 !important;
+    background-color: #55555a !important;
+}*/
+
+
 /*.snowfall-flakes {
     z-index: 1; 
     position: absolute;
@@ -356,6 +366,35 @@ h3#contactp {
     text-align: center;
 }
 
+/*.progress {
+   font-family: 'Ubuntu Condensed', sans-serif;
+   font-size: 2em; 
+}*/
+
+.level-title .level-label {
+    /*color: #ccd1d6;*/
+    color: gray;
+    /*font-size: 14px;*/
+    font-size: .75em;
+    font-weight: 400;
+    font-family: "Lato", arial, sans-serif;
+    position: absolute;
+    right: 0;
+    margin-top: .3em;
+    margin-right: 1em;
+    /*top: 0*/
+}
+
+.level-bar {
+    height: 15px;
+    background: #e8e8e8;
+}
+
+.level-bar-inner {
+    height: 15px;
+    background: #66cb8c;
+}
+
 .black {
     background-color:black;
 }
@@ -368,6 +407,13 @@ p#copyright {
     text-align: center;
 }
 
+p#panel_p{
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
 /*video {
     object-fit: cover;
 }*/
@@ -376,3 +422,65 @@ p#copyright {
     overflow: visible;
 }
 */
+
+.card-header {
+  overflow:visible;
+}
+
+.popover {
+    z-index: 100;
+    position: relative;
+}
+
+h6#skills {
+    margin-bottom: 1em; 
+}
+
+
+/* Panel CSS */
+
+
+
+/*a.panel-heading {
+    display: block;
+}
+.panel-primary .panel-heading[aria-expanded="true"], .panel-primary .panel-heading a:hover, .panel-primary .panel-heading a:focus, .panel-primary a.panel-heading:hover, .panel-primary a.panel-heading:focus {
+    background-color: #286090;
+}
+.panel-danger .panel-heading[aria-expanded="true"], .panel-danger .panel-heading a:hover, .panel-danger .panel-heading a:focus, .panel-danger a.panel-heading:hover, .panel-danger a.panel-heading:focus {
+    background-color: #c9302c;
+}
+.panel-default .panel-heading[aria-expanded="true"], .panel-default .panel-heading a:hover, .panel-default .panel-heading a:focus, .panel-default a.panel-heading:hover, .panel-default a.panel-heading:focus {
+    background-color: #dcdcdc;
+}
+.panel-info .panel-heading[aria-expanded="true"], .panel-info .panel-heading a:hover, .panel-info .panel-heading a:focus, .panel-info a.panel-heading:hover, .panel-info a.panel-heading:focus {
+    background-color: #31b0d5;
+}
+.panel-success .panel-heading[aria-expanded="true"], .panel-success .panel-heading a:hover, .panel-success .panel-heading a:focus, .panel-success a.panel-heading:hover, .panel-success a.panel-heading:focus {
+    background-color: #449d44;
+}
+.panel-warning .panel-heading[aria-expanded="true"], .panel-warning .panel-heading a:hover, .panel-warning .panel-heading a:focus, .panel-warning a.panel-heading:hover, .panel-warning a.panel-heading:focus {
+    background-color: #ec971f;
+}
+.panel-group .panel, .panel-group .panel-heading {
+    border: none !important;
+}
+.panel-group .panel-body {
+    border: 1px solid #ddd !important;
+    border-width: 0 1px 1px 1px !important;
+}
+.panel-group .panel-heading a, .panel-group a.panel-heading {
+    outline: 0;
+}
+.panel-group .panel-heading a:hover, .panel-group .panel-heading a:focus, .panel-group a.panel-heading:hover, .panel-group a.panel-heading:focus {
+    text-decoration: none;
+}
+.panel-group .panel-heading .icon-indicator {
+    margin-right: 10px;
+}
+.panel-group .panel-heading .icon-indicator:before {
+    content: "\e114";
+}
+.panel-group .panel-heading.collapsed .icon-indicator:before {
+    content: "\e080";
+}*/

@@ -22,3 +22,33 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+
+$(function () {
+  $('[data-toggle="popover"]').popover({html: true, container: 'body', placement: "right", viewport: ".container", trigger: "hover"})
+})
+
+// $('.collapse').on('shown.bs.collapse', function(){
+// $(this).parent().find(".fa-angle-right").removeClass("fa-angle-right").addClass("fa-angle-down");
+// }).on('hidden.bs.collapse', function(){
+// $(this).parent().find(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-angle-right");
+// });
+
+$('.collapse').on('shown.bs.collapse', function(){
+$(this).parents(".card").find(".fa-angle-right").removeClass("fa-angle-right").addClass("fa-angle-down");
+}).on('hidden.bs.collapse', function(){
+$(this).parents(".card").find(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-angle-right");
+});
+
+
+// $(document).ready(function(){    
+//     $('.collapse').on('shown.bs.collapse', function () {
+//        $(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-angle-right");
+//     });
+
+//     $('.collapse').on('hidden.bs.collapse', function () {
+//        $(".fa-angle-right").removeClass("fa-angle-right").addClass("fa-angle-down");
+//     });
+// });
