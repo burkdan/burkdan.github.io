@@ -440,20 +440,32 @@
                 </a>
             </div>
             <div class="col-sm-4 text-center">
-                <!--                wrap picture with a tag-->
                 <a href="javascript:;" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal2">
+                    <img class="img-fluid " src="img/lofi_stream.png" alt="lofi generator">
+                    <h3 id="projtitle">Lofi Hip-Hop Generator</h3>
+                </a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a href="javascript:;" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal3">
+                    <img class="img-fluid " src="img/obs_main.png" alt="OBS script">
+                    <h3 id="projtitle">OBS Script</h3>
+                </a>
+            </div> 
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-4 text-center">
+                <a href="javascript:;" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal4">
                     <img class="img-fluid " src="img/rob3.jpg" alt="work ">
                     <h3 id="projtitle">Microrobotics at Tecnun</h3>
                 </a>
             </div>
-            <div class="col-sm-3 text-center">
-                <!--                wrap picture with a tag-->
-                <a href="javascript:;" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal3">
+            <div class="col-sm-4 text-center">
+                <a href="javascript:;" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal5">
                     <img class="img-fluid " src="img/research_screenshot_small.png" alt="research">
                     <h3 id="projtitle">Pathplanning Research</h3>
                 </a>
             </div>
-        </div>
+        </div>      
     </div>
     
 
@@ -465,7 +477,7 @@
         <div class="row">
             <div class="col-sm-6 text-center">
                 <!--                wrap picture with a tag-->
-                <a href="javascript:;" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal4">
+                <a href="javascript:;" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal6">
                     <img class="img-fluid " src="img/pirateship.png" alt="mpk mini ">
                     <h3 id="projtitle">Blender 360 Pirate Video</h3>
                 </a>
@@ -473,7 +485,7 @@
 
             <div class="col-sm-6 text-center">
                 <!--                wrap picture with a tag-->
-                <a href="javascript:;" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal5">
+                <a href="javascript:;" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal7">
                     <img class="img-fluid " src="img/spain1.jpg" alt="mpk mini ">
                     <h3 id="projtitle">Spain Study Abroad Travel Blog (Summer 2016)</h3>
                 </a>
@@ -547,11 +559,17 @@
                             <div class="col-sm-8">
                                 <img src="img/mpk_mini.jpg" class="mx-auto d-block img-fluid mb-5" alt="mpk mini">
                                 <p class="text-center">Image Source: <a href="http://www.akaipro.com/products/keyboard-controllers/mpk-mini-mkii">Akai Website</a></p>
+                                <img src="img/batchords_main.png" class="mx-auto d-block img-fluid mb-5" alt="Batchords main menu">
+                                <img src="img/batchords_playback.png" class="mx-auto d-block img-fluid mb-5" alt="Batchords playback menu">
+                                <img src="img/batchords_edit.png" class="mx-auto d-block img-fluid mb-5" alt="Batchords edit menu">
                             </div>
 
                             <div class="col-sm-4">
                                 <h2>Accessability Software for Music</h2>
-                                <p>For my senior major design experience project I am taking "Accessible Software Systems Design" with <a href="http://web.eecs.umich.edu/faculty/chesney/">Dr. David Chesney</a>. I am working on a team with 3 other senior students to design a software for our client: Brad Ebenhoeh.  In 2005 Brad had a cerebral hemorrhage after which he spent 7 months in the hospital and 10 years in rehab. As a result Brad now uses a motorized wheelchair, is paralyzed on the right-hand side of his body and left-hand side of his face, has Ataxia in the left-hand side of his body, and has visual difficulties as well. One thing Brad is very passionate about is music and playing the paino. The goal of our software is to add functionality to the Akai MPK Mini midi keyboard by repurposing some of the drum pads and incorperating a foot pedal so that it is much easier for Brad to execute certain actions, such as playing chords or switching octaves while only using one hand. Our software will be written in C++ using the <a href="https://juce.com/discover">JUCE application</a> and API.</p>
+                                <p>For my senior major design experience project I am taking "Accessible Software Systems Design" with <a href="http://web.eecs.umich.edu/faculty/chesney/">Dr. David Chesney</a>. I am working on a team with 3 other senior students to design a software for our client: Brad Ebenhoeh.  In 2005 Brad had a cerebral hemorrhage after which he spent 7 months in the hospital and 10 years in rehab. As a result Brad now uses a motorized wheelchair, is paralyzed on the right-hand side of his body and left-hand side of his face, has Ataxia in the left-hand side of his body, and has visual difficulties as well. One thing Brad is very passionate about is music and playing the paino. The goal of our software is to add functionality to the Akai MPK Mini midi keyboard by repurposing some of the drum pads and incorperating a foot pedal so that it is much easier for Brad to execute certain actions, such as editing a music score and playing chords with two fingers. Our program is a web application written using HTML, Javascript, React.js and the Python Flask framework. Our program interfaces with the <a href="https://flat.io/">Flat.io</a> embedded Javascript and REST API.</p>
+
+                                <p>Link to <a href="https://github.com/jmzuid/BatChords">Github repository</a>.</p>
+
                                 <ul class="list-inline item-details" id="proj-list">
                                     <li>Organization:
                                         <strong><a href="#">University of Michigan CSE Senior Design Project</a></strong>
@@ -578,10 +596,108 @@
     </div>
 </div>
 
-
-
 <!--modal 2-->
 <div class="portfolio-modal modal" id="portfolioModal2" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="modal-body">
+                    <div class="modal-inner">
+                        <div class="row">
+
+                            <div class="col-sm-8">
+                                <img src="img/lofi_stream.png" class="mx-auto d-block img-fluid mb-5" alt="ChilledCow lofi stream">
+                                <p class="text-center">Image Source: <a href="https://www.youtube.com/watch?v=8XiqrERZo_8">ChilledCow lofi hip hop radio stream</a></p>
+                                <img src="img/lofi_beatblender.jpg" class="mx-auto d-block img-fluid mb-5" alt="Google AI Beat Blender">
+                                <p class="text-center">Image Source: <a href="https://github.com/googlecreativelab/beat-blender">Google AI Beat Blender</a></p>
+                                <img src="img/lofi_melodymixer.gif" class="mx-auto d-block img-fluid mb-5" alt="Google AI Beat Blender">
+                                <p class="text-center">Image Source: <a href="https://github.com/googlecreativelab/melody-mixer">Google AI Melody Mixer</a></p>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h2>Lofi Hip-Hop Generator</h2>
+                                <p>One of my core passions is music, so for a side project I wanted to see how Machine Learning could be used in music generation. I decided to pursue the creation of a lofi hip hop generator, as I am a large fan and creator of lofi hip hop myself. If you are unfamiliar with lofi hip hop check out this <a href="https://www.youtube.com/watch?v=8XiqrERZo_8">popular lofi hip hop YouTube stream </a>. Many popular lofi hip hop tracks are sample based piano tracks backed by repetative drum loops and is somewhat formulaic, so I wondered if a robot could generate a constant stream of lofi hip hop by learning from some popular piano samples. I am currently exploring the <a href="https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae">TensorFlow: Magenta MusicVAE</a> interface, which utilizes deeplearn.js to generate melodies right in the browser.</p>
+
+                                <p>Link to <a href="https://github.com/burkdan/lofi_generator">Github repository</a>.</p>
+
+                                <ul class="list-inline item-details" id="proj-list">
+                                    <li>Organization:
+                                        <strong><a href="#">Machine Learning and Music interest group (run by me)</a></strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong><a href="#">March 2018 - Now</a></strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row bottom">
+                        <a href="javascript:;" class="mr-auto" data-dismiss="modal">Back to Projects</a>
+                        <a class="prev" href="javascript:;">Prev /&nbsp;</a>
+                        <a class="next" href="javascript:;">Next</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--modal 3-->
+<div class="portfolio-modal modal" id="portfolioModal3" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="modal-body">
+                    <div class="modal-inner">
+                        <div class="row">
+
+                            <div class="col-sm-8">
+                                <img src="img/obs_main.png" class="mx-auto d-block img-fluid mb-5" alt="OBS main view">
+                                <img src="img/obs_script.png" class="mx-auto d-block img-fluid mb-5" alt="OBS script">
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h2>OBS Scripts</h2>
+                                <p>As part of my work study job as a Design Studio Intern one project I wanted to create was a template for the projector that could be used to display what interns are currently on shift, play videos when no events are going on, and show any general information. In order to display the interns currently on shift I wrote a script for Open Broadcast Software that uses the Google Calendar API to get the current events and display the name of the event and a associated picture. Supported scripting is a feature that was recently added to OBS, so I decided to make my script general and upload it to the OBS scripts page.This was so that other programmers writing scripts could look at the code and streamers can use it by downloading the API key and inputting their own calendar ID. It has been downloaded around 100 times since being released at the beginning of March. This has inspired further ideas for useful scripts for streaming that I plan to implement as soon as I find the time!</p>
+
+                                <p> Link to <a href="https://obsproject.com/forum/resources/google-calendar-events.641/">OBS page for the script</a>.</p>
+
+                                <p>Link to <a href="https://github.com/burkdan/OBS-Google-Events">Github repository</a>.</p>
+
+                                <ul class="list-inline item-details" id="proj-list">
+                                    <li>Date:
+                                        <strong><a href="#">February 2018 - Now</a></strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row bottom">
+                        <a href="javascript:;" class="mr-auto" data-dismiss="modal">Back to Projects</a>
+                        <a class="prev" href="javascript:;">Prev /&nbsp;</a>
+                        <a class="next" href="javascript:;">Next</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal" id="portfolioModal4" tabindex="-1 " role="dialog " aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header justify-content-end">
@@ -633,7 +749,7 @@
     </div>
 </div>
 
-<div class="portfolio-modal modal" id="portfolioModal3" tabindex="-1 " role="dialog " aria-hidden="true">
+<div class="portfolio-modal modal" id="portfolioModal5" tabindex="-1 " role="dialog " aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header justify-content-end">
@@ -689,7 +805,7 @@
     </div>
 </div>
 
-<div class="portfolio-modal modal" id="portfolioModal4" tabindex="-1 " role="dialog " aria-hidden="true">
+<div class="portfolio-modal modal" id="portfolioModal6" tabindex="-1 " role="dialog " aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header justify-content-end">
@@ -737,7 +853,7 @@
     </div>
 </div>
 
-<div class="portfolio-modal modal" id="portfolioModal5" tabindex="-1 " role="dialog " aria-hidden="true">
+<div class="portfolio-modal modal" id="portfolioModal7" tabindex="-1 " role="dialog " aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header justify-content-end">
@@ -813,3 +929,4 @@
         </div>
     </div>
 </div>
+
